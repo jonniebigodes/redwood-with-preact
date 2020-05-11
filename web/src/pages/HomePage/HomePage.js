@@ -13,6 +13,9 @@ const HomePage = () => {
             <li>
               <Link to={routes.boop()}>Boop</Link>
             </li>
+            <li>
+              <Link to={routes.onemore()}>zoinks</Link>
+            </li>
           </ul>
         </nav>
       </header>

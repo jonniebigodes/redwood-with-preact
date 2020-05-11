@@ -5,7 +5,14 @@ module.exports = {
       '@babel/plugin-transform-react-jsx',
       {
         pragma: 'h',
-        //pragmaFrag: 'Fragment',
+      },
+    ],
+    [
+      '@emotion/babel-plugin-jsx-pragmatic',
+      {
+        module: 'preact',
+        import: 'h',
+        export: 'h',
       },
     ],
   ],

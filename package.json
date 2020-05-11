@@ -6,6 +6,9 @@
       "web"
     ]
   },
+  "scripts": {
+    "jest": "yarn workspace web test:web"
+  },
   "devDependencies": {
     "@babel/plugin-transform-react-jsx": "^7.9.4",
     "@redwoodjs/core": "^0.4.0",
